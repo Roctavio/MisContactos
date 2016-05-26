@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent.putExtra(getResources().getString(R.string.pnombre),contactos.get(position).getNombre());
                 Intent.putExtra(getResources().getString(R.string.ptelefono),contactos.get(position).getTelefono());
                 Intent.putExtra(getResources().getString(R.string.pemail),contactos.get(position).getEmail());
-                Intent.putExtra(getResources().getString(R.string.pemail),contactos.get(position).getEmail());
+                
 
                 startActivity(intent);
 
